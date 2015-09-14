@@ -14,7 +14,7 @@ defmodule Meetup4 do
     # That thing below is same as if you'd type...
     # 
     # conn = Plug.Conn.put_resp_content_type(conn, "text/plain")
-    # conn = Plug.Conn.send_resp(200, "Hello world!")
+    # conn = Plug.Conn.send_resp(conn, 200, "Hello world!")
     # conn
     #
     # So you see why the pipe operator comes handy. :)
